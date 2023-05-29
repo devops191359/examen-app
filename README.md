@@ -14,7 +14,7 @@ ng serve
 
 Nota : una vez cumplido lo anterior, deberá acceder al front bajo la siguiente url:
 
-http://localhost4200/
+http://localhost:4200/
 
 
 Una vez que haya accedido a dicha url , deberá ingresar los siguientes datos en la pantalla de login
