@@ -35,9 +35,7 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // reset login status
     this.authService.logout();
-    // get return url from route parameters or default to '/'
     this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/dashboard';
   }
 
@@ -46,8 +44,6 @@ export class LoginComponent implements OnInit {
 
   onSubmit(): void {
     this.submitted = true;
-
-    // stop here if form is invalid
     if (this.loginForm.invalid) {
       return;
     }
