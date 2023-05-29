@@ -5,7 +5,7 @@ import { ProductoReqModel } from "src/app/model/productos/producto-req.model";
 import { ProductoModel } from "src/app/model/productos/producto.model";
 import { environment } from "src/environments/environment";
 
-const API_URL = 'http://localhost:8080/api/test/';
+const API_URL = '';
 
 @Injectable({
     providedIn: 'root',
