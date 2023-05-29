@@ -1,0 +1,9 @@
+<div id="app">
+  <app-navbar *ngIf="isLoggedIn"></app-navbar>
+  <div class="">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="loading" *ngIf="loading">
+    <i class="fas fa-spin fa-spinner fa-5x"></i>
+  </div>
+</div>
